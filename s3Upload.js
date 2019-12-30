@@ -14,7 +14,7 @@ fs.readFile('./del.txt', function (err, data) {
   var s3 = new AWS.S3();
   s3.upload({
     Bucket: 'abbvie-darma-dev',
-    Key: 'del2.txt',
+    Key: 'del3.txt',
     Body: base64data,
     ACL: 'public-read'
   },function () {

@@ -4,6 +4,7 @@
   "description": "",
   "main": "AWS_S3_File_Upload.js",
   "scripts": {
+    "start":"node s3Upload.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
